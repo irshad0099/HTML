@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+
+<body style="background-color: aqua;">
+  <h1>Complex Form</h1>
+  <fieldset>
+    <legend>Personal Application</legend>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+
+      <label for="Email">Email ID:</label>
+      <input type="text" id="Email" name="Email" />
+
+      <label for="Telephone">Phone No:</label>
+      <input type="tel" id="Telephone" name="Telephone" />
+
+      <label for="Datepicker1">Date of Birth</label>
+      <input type="date" id="Datepicker" name="datepicker"><br><br>
+
+      <span>Gender:</span>
+      <input type="radio" name="radio" id="radio1" />
+      <label for="radio1">Male</label>
+
+      <input type="radio" name="radio" id="radio2" />
+      <label for="radio2">Female</label><br><br>
+
+      <label for="country">Country</label>
+      <select name="country" id="country">
+        <option value="india">India</option>
+        <option value="US">US</option>
+        <option value="Germany">Germany</option>
+        <option value="kanada">Kanada</option>
+      </select><br><br>
+
+      <fieldset>
+        <legend>Address</legend>
+        <label for="City1">City:</label>
+        <input type="text" id="City1" name="City">
+
+        <label for="Street">Street:</label>
+        <input type="text" id="Street1" name="Street1">
+
+        <label for="State">State:</label>
+        <input type="text" id="State1" name="State1">
+
+        <label for="Zip Code">Zip Code:</label>
+        <input type="text" id="Zip Code" name="Zip Code">
+      </fieldset><br><br>
+
+      <fieldset>
+        <legend>Other Information</legend>
+        <label for="textArea1">Comments:</label><br />
+        <textarea name="textArea1" id="textArea1" cols="20" rows="10"></textarea>
+
+        <label for="terms">I agree to the terms of service:</label>
+        <input type="checkbox" name="terms" id="terms">
+      </fieldset><br />
+
+      <button type="button" class="btn btn-xs btn-success">Submit</button>
+
+
+
+</body>
+
+</html>

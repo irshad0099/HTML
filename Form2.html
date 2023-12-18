@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Document</title>
+</head>
+
+<body style="background-color: blueviolet;">
+  <fieldset>
+    <legend>Job Application</legend>
+    <form>
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" />
+      <br /><br />
+      <label for="Email">Email ID:</label>
+      <input type="text" id="Email" name="Email" />
+      <br /><br />
+
+      <label for="Telephone">Phone No:</label>
+      <input type="tel" id="Telephone" name="Telephone" />
+      <br /><br />
+      <label for="file1">Resume:</label>
+      <input type="file" id="file1" name="file1" /><br /><br />
+
+      <label for="counter">Experience (In Years):</label>
+      <input type="number" name="counter" id="counter" min="0" max="50" /><br /><br />
+      <fieldset>
+        <legend>Skills</legend>
+        <label for="checkbox1">HTML</label>
+        <input type="checkbox" name="checkbox1" id="checkbox1" /><br /><br />
+
+        <label for="checkbox2">CSS</label>
+        <input type="checkbox" name="checkbox2" id="checkbox2" /><br /><br />
+
+        <label for="checkbox3">JAVASCRIPT</label>
+        <input type="checkbox" name="checkbox3" id="checkbox3" />
+      </fieldset>
+      <br />
+
+      <label for="educationType">Highest Education:</label>
+      <select name="EducationType" id="EducationType">
+        <option value="B.E">B.E</option>
+        <option value="B.Tech">B.Tech</option>
+        <option value="BSC">BSC</option>
+        <option value="M.Tech">M.Tech</option>
+        <option value="PHD">PHD</option>
+      </select>
+
+      <fieldset>
+        <legend>Availability</legend>
+        <label for="radio1">Full-Time</label>
+        <input type="radio" name="radio" id="radio1" /><br />
+
+        <label for="radio2">Part-Time</label>
+        <input type="radio" name="radio" id="radio2" /><br />
+      </fieldset>
+      <br />
+
+      <label for="textArea1">Write Something here...</label><br />
+      <textarea name="textArea1" id="textArea1" cols="20" rows="10"></textarea><br>
+      <button>Submit Application</button>
+    </form>
+  </fieldset>
+</body>
+
+</html>
